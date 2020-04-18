@@ -1,0 +1,31 @@
+body{
+  background: black;
+  color: white;
+}
+a{
+  display: block;
+  padding: 7px;
+}
+a:hover{
+  background: rgb(20, 20, 20);
+}
+a:active{
+  bacground: green;
+}
+
+button{
+  background: black;
+  color: white;
+  display: block;
+  padding: 7px;
+}
+button:hover{
+  background: rgb(20, 20, 20);
+}
+button:active{
+  bacground: green;
+}
+
+h1{
+  text-align: CENTER;
+}
