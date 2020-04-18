@@ -1,0 +1,57 @@
+body{
+  background: black;
+  color: white;
+}
+a{
+  display: block;
+  padding: 7px;
+  background: #333333;
+  color: #cccccc;
+  left: 0px;
+}
+a:hover{
+  background: green;
+}
+#secure{
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: blue;
+}
+input{
+  border: none;
+  background: #222222;
+  color: white;
+  border-radius: 10px;
+  width: 40%;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+input: active{
+  border: none;
+}
+button{
+  border: none;
+  background: #222222;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+button: hover{
+  background: green;
+}
+
+#unblockBtn{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#bottom{
+  top: 90%;
+  width: 100%;
+  position: fixed;
+}

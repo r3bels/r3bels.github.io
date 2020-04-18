@@ -1,0 +1,50 @@
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151258905-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-151258905-3');
+  </script>
+
+  <link rel='icon' href='https://lh3.googleusercontent.com/proxy/vm04QgoX0ecCIHDE9artPzeSQflIE8AbKF_pxTXcMD9qIWV0hqN24-hWELP60y7PGwN13KLuXNcoDexPy453eoMMYqXFpKLJlROCc4u_nOE6oxJX-oS4nNaaPnv6JoA' type='image/x-icon'/ >
+  <title>this tab is innocent</title>
+  
+  <style>
+    a{
+      display: block;
+      padding: 10px;
+      radius: 5px;
+      background: rgba(0, 0, 0, 0.5);
+      color: rgba(255, 255, 255, 0.5);
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+    a:hover{
+      background: green;
+      color: white;
+    }
+
+    iframe{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: none;
+      top: 0px;
+      left: 0px;
+      padding: -10px;
+    }
+  </style>
+  <script src="index.js"></script>
+</head>
+<body>
+  <iframe id="main-content"></iframe>
+  <a href="index.html">back to main page</a>
+  <script>
+    document.getElementById('main-content').src=getUrl();
+    password('sahara');
+  </script>
+</body>
